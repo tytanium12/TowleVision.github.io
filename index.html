@@ -12,105 +12,117 @@
 
   <style>
     :root {
-      --bg: #ffffff;
-      --text: #111111;
-      --muted: #555555;
-      --accent: #000000;
-      --max-width: 760px;
+      --bg: #0b1a26;
+      --bg-soft: #102636;
+    
+      --text: #d3dbe1;
+      --muted: #9fb0bb;
+    
+      --accent: #2fa4a0;
+      --accent-soft: #1f7f7b;
+    
+      --max-width: 720px;
     }
-
+    
     * {
       box-sizing: border-box;
     }
-
+    
     body {
       margin: 0;
       padding: 0;
       background: var(--bg);
       color: var(--text);
       font-family: Georgia, "Times New Roman", serif;
-      line-height: 1.7;
+      line-height: 1.75;
+      font-size: 17px;
     }
-
+    
     main {
       max-width: var(--max-width);
       margin: 0 auto;
-      padding: 4rem 1.5rem 5rem;
+      padding: 4.5rem 1.5rem 6rem;
     }
-
+    
     header {
-      margin-bottom: 2.5rem;
+      margin-bottom: 3.5rem;
     }
-
+    
     h1 {
-      font-size: 2.4rem;
+      font-size: 2.5rem;
       font-weight: normal;
-      margin: 0 0 0.5rem;
+      margin: 0 0 0.6rem;
+      letter-spacing: 0.02em;
+      color: var(--text);
     }
-
+    
     h2 {
-      font-size: 1.6rem;
+      font-size: 1.7rem;
       font-weight: normal;
-      margin: 3.5rem 0 1.2rem;
+      margin: 4rem 0 1.4rem;
+      color: var(--text);
     }
-
+    
     h3 {
       font-size: 1.2rem;
       font-weight: normal;
-      margin: 2rem 0 0.4rem;
+      margin: 2.2rem 0 0.5rem;
+      color: var(--text);
     }
-
+    
     p {
-      margin: 0 0 1.2rem;
+      margin: 0 0 1.4rem;
     }
-
+    
     .subtitle {
-      font-size: 1.1rem;
+      font-size: 1.15rem;
       color: var(--muted);
-      margin-bottom: 1.2rem;
+      margin-bottom: 1.4rem;
     }
-
+    
     .byline {
       font-size: 0.95rem;
       color: var(--muted);
     }
-
+    
     .nav {
-      margin-top: 1.5rem;
+      margin-top: 1.8rem;
       font-size: 0.95rem;
     }
-
+    
     .nav a {
-      margin-right: 1.2rem;
+      margin-right: 1.4rem;
       color: var(--muted);
+      text-decoration: none;
       border-bottom: none;
     }
-
+    
     .nav a:hover {
-      color: var(--text);
-      border-bottom: 1px solid var(--text);
+      color: var(--accent);
+      border-bottom: 1px solid var(--accent);
     }
-
+    
     .section {
-      margin-bottom: 3.5rem;
+      margin-bottom: 4.5rem;
     }
-
+    
     .work-item {
-      margin-bottom: 2.5rem;
+      margin-bottom: 2.8rem;
     }
-
+    
     a {
       color: var(--accent);
       text-decoration: none;
       border-bottom: 1px solid var(--accent);
     }
-
+    
     a:hover {
-      border-bottom-width: 2px;
+      color: var(--accent-soft);
+      border-bottom-color: var(--accent-soft);
     }
-
+    
     footer {
-      margin-top: 5rem;
+      margin-top: 6rem;
       font-size: 0.9rem;
       color: var(--muted);
     }
